@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/@angular/material/prebuilt-themes/indigo-pink.css';
+
+body{margin: 0px; padding: 0px;}
+*{box-sizing: border-box;}
+.main{margin: 0px; padding: 0 20px; float: left; width: 100%;}
+.side-bar{margin: 0px; padding: 0px; float: left; width: 29%; border-right: 1px solid #f1f1f1; min-height: 90vh;}
+.side-bar ul{margin: 0px; padding: 0px; float: left; width: 100%;}
+.side-bar ul li{margin: 5px 0; padding: 0px; float: left; width: 100%; list-style: none;}
+.side-bar ul li a{margin: 0px; padding: 5px; float: left; width: 100%; text-decoration: none; color: #000; font-weight: 600; font-size: 16px;}
+.side-bar ul li a:hover{background: #f1f1f1;}
+.right-body{margin: 0px; padding: 10px; float: right; width: 69%; min-height: 90vh;}

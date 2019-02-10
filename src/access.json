@@ -1,0 +1,30 @@
+{
+  "UserAccess": [
+    {
+      "Candidate": [
+        { "Profile": ["EducationDetails", "LicenseDetails"] },
+        { "Wizard": ["EducationDetails", "LicenseDetails"] }
+      ]
+    },
+    { "Client": [] },
+    { "JobOrder": [] }
+  ],
+
+  "UserAccess2": {
+    "Candidate": {
+      "Profile": ["EducationDetail", "LicenseDetails"],
+      "Wizard": ["EducationDetail", "LicenseDetails"]
+    },
+    "Client": {},
+    "JobOrder": {}
+  },
+
+  "Level1":{
+      [{
+        "Name":"Candidate",
+        "Level2":
+      }]
+    }
+  }
+  
+}

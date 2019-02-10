@@ -1,0 +1,24 @@
+*{box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; }
+
+header{margin: 0px; padding: 10px; float: left; width: 100%; text-align: center; border-bottom: 1px solid #f1f1f1;}
+header .logo-part{margin: 0px; padding: 0px; float: left; width: auto;}
+header .logo-part img{width: 50px; float: left;}
+header ul{margin: 5px 0 0 0; padding: 0px; float: none; display: inline-block; width: auto; vertical-align: middle;}
+header ul li{margin: 0 10px; padding: 10px; float: left; width: auto; list-style: none; background: #f1f1f1;}
+header ul li a{color: #000; font-size: 16px; text-decoration: none; font-weight: 600; vertical-align: middle; background: #f1f1f1;}
+.logout{float: right; width: auto; position: relative; margin: 20px 0 0 0;}
+.logout span{margin: 0px; padding: 0 20px 0 0; float: right; width: auto; font-size: 16px; font-weight: 600; position: relative;}
+.logout span::after{content: ''; position: absolute; right: 0; top: 6px; border-top: 5px solid #000; border-left: 5px solid transparent; border-right: 5px solid transparent; border-bottom: 5px solid transparent;}
+.logout .hide-area{margin: 0px; padding: 10px; float: left; width: 150px; position: absolute; right: 0; top: calc(100% - -10px); box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); text-align: left; background: #fff;}
+.logout .hide-area a{float: left; width: 100%; margin: 5px 0; text-decoration: none; color: #000; font-size: 15px; font-weight: 600;}
+.logout .hide-area a:hover{color: rgba(0, 0, 0, 0.5)}
+
+
+
+
+
+
+
+
+
+
